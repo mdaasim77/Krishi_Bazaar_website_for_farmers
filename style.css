@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    height: 100%;
+}
+
+/* nav bar code  */
+
+#logo{
+    /* border: 2px solid white; */
+    width: 18vw;
+    color: #fff;
+    font-size: x-large;
+}
+a{
+    color: #fff;
+    /* background-color: black; */
+    text-decoration: none;
+    /* border: 1px solid #fff; */
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
+a:hover{
+    background-color: #fff;
+    color: black;
+    font-size: 1.6rem;
+    border-radius: 8px;
+}
+.nav_links{
+    width: 70%;
+    margin: 50px;
+}
+nav{
+    display: flex;
+    background-color: #2d6a4f;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.nav_links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    justify-content: space-around;
+}
+.register{
+    display: flex;
+    gap: 0px;
+    gap: 5px;
+    padding: 0;
+}
+.signup_btn{
+    font-size: 1em;
+    padding: 0 20px; 
+    background: none;
+    color: #fff;
+    border: none;
+    width: 50%;
+    transition: 0.5s ease-out;
+}
+.login_btn{
+    font-size: 1em;
+    padding: 0 20px; 
+    background: none;
+    color: #fff;
+    border: none;
+    width: 50%;
+    transition: 0.5s ease-out;
+}
+.login_btn:hover{
+    background-color: #fff;
+    color: black;
+    font-size: 1.6rem;
+    border-radius: 8px;
+}
+.signup_btn:hover{
+    background-color: #fff;
+    color: black;
+    font-size: 1.6rem;
+    border-radius: 8px;
+}
+
+/* nav bar code  end */
+
+/* page 1 code  */
+
+.page1{
+    padding-top: 10vh;
+    margin-top: 20px;
+    height: 87vh;
+    width: 100%;
+    background-image: url("img/cow.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+.welcome{
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50vw;
+    transform: translate(-50%, -50%);   
+    width: 50%;
+}
+
+.welcome h2{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 38px;
+}
+.welcome p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.categories h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.cards{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(228, 225, 225);
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    border-radius: 12px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px 40px;
+}
+.card img{
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 200px;
+    border-radius: 8px 8px 0px 0px;
+}
+.card p{
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+.info{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 18px;
+}
+.info ul li{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* page 1 code end */
+
+
+/* footer code start */
+
+footer{
+    background-color: #2d6a4f;
+    color: white;
+    margin-top: 25px;
+}
+.div-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70vh;
+}
+.footer-box{
+    /* background-color: red; */
+    margin: 5px 50px;
+    width: 33.33%;
+
+}
+
+
+/* buy page */
+
+.cow_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.cow_heading{
+    text-align: center;
+    margin-top: 25px;
+    font-size: larger;
+}
+.buy_card img{
+    width: 200px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 8px 0px 0px;
+}
+.buy_card{
+    text-align: center;
+    border: 1px solid black;
+    background-color: wheat;
+}
+.cow_name{
+    text-align: center;
+    font-weight: 600;
+}
+.buy_count{
+    justify-content: space-between;
+}
+.count_btn{
+    width: 40px;
+    font-size: 25px;
+}
+.add_tocart_btn{
+    width: 102px;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.page2{
+    padding-top: 10vh;
+    margin-top: 20px;
+    height: 87vh;
+    width: 100%;
+    background-image: url("img/buy.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+
+/* sell page */
+
+.page3{
+    padding-top: 10vh;
+    margin-top: 20px;
+    height: 87vh;
+    width: 100%;
+    background-image: url("img/sell.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #ffffff;
+}
+.sell{
+    margin-top: -150px;
+    margin-left: -1000px;
+}
+
+.sell-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+.sell-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.sell-form input, .sell-form select, .sell-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.sell-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2d6a4f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.sell-form button:hover {
+  background-color: #ffffff;
+  color: #2d6a4f;
+  border: 1px solid #2d6a4f;
+  transition: 0.5s;
+}
+
+
+/* cart */
+
+.cart{
+    padding: 50px;
+    margin-top: 12vh;
+    background-color: #f0f0f0;
+}
+.cart h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cart-item{
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.cart-item img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.details h3 {
+  margin-bottom: 10px;
+}
+.remove{
+    background-color: #e63946;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cart-total{
+    text-align: right;
+}
+.checkout {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+/* Government scheme */
+
+
+.scheme{
+    margin-top: 12vh;
+    text-align: center;
+    margin-top: 125px;
+}
+.schemes{
+    border: 5px solid #2d6a4f;
+    height: 120px;
+    width: 450px;
+    background-color: #edeceb;
+}
+.schemes h4{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.schemes a{
+    color: black;
+}
+.scheme_list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+/* login btn */
+
+
+.section_login{
+    display: flex;
+    background-color: #ffffff;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login_section{
+    background-color: #dcdada;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 400px;
+}
+.login_section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2d6a4f;
+    font-size: 24px;
+    font-weight: bold;
+}
+.login_form {
+    display: flex;
+    flex-direction: column;
+}
+.login_form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.login_form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #2d6a4f;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.login_form .login_btn{
+    padding: 12px;
+    background-color: #2d6a4f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.form_btn{
+    display: flex;
+}
+
+
+/* signup page  */
+
+
+.register_section {
+    min-height: 100vh;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to right, #d8f3dc, #9edeb5);
+}
+
+
+.register_div {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 480px;
+}
+
+.register_h2 {
+    text-align: center;
+    color: #2d6a4f;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.register_form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+.register_form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+.register_btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #2d6a4f;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+

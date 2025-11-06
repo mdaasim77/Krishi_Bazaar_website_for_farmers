@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register yourself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <nav>
+        <div id="logo"><h4>Krishi Bazaar</h4></div>
+        <div class="nav_links">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="buy.html" >Buy</a></li>
+                <li><a href="sell.html" >Sell</a></li>
+                <li><a href="cart.html" >Cart</a></li>
+                <li><a href="goverment.html" >Goverment Scheme</a></li>
+            </ul> 
+        </div>
+        <div class="register">
+            <a href="login.html" class="login_btn">Login</a>
+            <a href="signup.html" class="signup_btn">Sign up</a>
+        </div>
+    </nav>
+    <section class="register_section">
+        <div class="register_div">
+            <h2 class="register_h2">Register here</h2>
+            <form class="register_form" action="">
+                <label for="name">Enter full name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <label for="email">Enter your Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                <label for="number">Enter your Phone Number</label>
+                <input type="number" id="number" required placeholder="Enter your number">
+                <label for="password">Create password</label>
+                <input type="password" id="password" required placeholder="Create password">
+                <label for="password2">Confirm password</label>
+                <input type="password" id="password2" required placeholder="Confirm password">
+                <button type="submit" class="register_btn">Register</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

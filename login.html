@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>Login Krishi Bazaar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="logo"><h4>Krishi Bazaar</h4></div>
+      <div class="nav_links">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="buy.html">Buy</a></li>
+          <li><a href="sell.html">Sell</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="goverment.html">Goverment Scheme</a></li>
+        </ul>
+      </div>
+      <div class="register">
+        <a href="login.html" class="login_btn">Login</a>
+        <a href="signup.html" class="signup_btn">Sign up</a>
+      </div>
+    </nav>
+
+    <!-- Login Modal -->
+
+    <section class="section_login">
+      <div class="login_section">
+        <h2>Login to Krishi Bazaar</h2>
+        <form class="login_form" action="">
+          <label for="login_email">Enter your email or username</label>
+          <input
+            placeholder="Enter your email or password"
+            type="text"
+            id="login_email"
+            name="login_email"
+            required
+          />
+          <label for="password">Enter your password</label>
+          <input
+            placeholder="Enter your password"
+            required
+            type="password"
+            id="password"
+            name="password"
+          />
+          <button class="login_btn">Login</button>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
